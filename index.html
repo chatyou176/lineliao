@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="交友,app">
+
+  <meta name="goole" value="notranslate">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Cache-Control" content="no-transform"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>来聊交友</title>
+
+  <!-- W3 CSS v4-->
+  <link href="css/w3.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- main css -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="w3-top">
+    <div id="topnav" class="w3-bar bar-custom">
+      <a class="w3-bar-item w3-btn w3-text-white w3-hover-red" href="#home"><img width="20px" height="20px" src="img/logo48x48.png"><strong>来聊交友</strong></a>
+
+      <a class="w3-bar-item w3-button w3-text-white w3-hover-red" href="#about">About</a>
+      <a class="w3-bar-item w3-button w3-text-white w3-hover-red" href="#download">Download</a>
+      <a class="w3-bar-item w3-button w3-text-white w3-hover-red" href="#screen">Screen</a>
+      <a id="lang" class="w3-bar-item w3-text-white w3-button w3-hover-red" data-lang=2 onclick="translateZH();">繁</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="topnavFunction()"><i class="fa fa-bars w3-xlarge"></i></a>
+    </div>
+  </div>
+
+
+  <!-- masthead -->
+  <header id="home" class="masthead w3-container w3-center">
+    <img class="w3-animate-top" src="img/logo.png">
+    <h1 class="w3-text-pink w3-text-shadow w3-animate-opacity">来聊交友 邂逅你的TA</h1>
+    <hr>
+
+    <p class="w3-text-white w3-animate-left">立即注册，送200金币</p>
+    <p class="w3-text-white w3-animate-right">不照骗免费一对一随机异性配对语音聊天交友</p>
+    <p class="w3-text-white w3-animate-left">不用再左滑右滑等待对方喜欢，直接上线</p>
+    <p class="w3-text-white w3-animate-right">马上有人聊天，语音通话感受最直接,感觉对了就出门约会搂</p>
+    <br>
+
+    <a class="w3-button w3-xlarge w3-pink" href="#about">免费体验</a>
+  </header>
+
+
+  <!-- about -->
+  <section id="about" class="w3-container w3-center w3-pale-red w3-padding-48">
+    <h2 class="w3-text-shadow w3-animate-fading">立即加入</h2>
+    <hr>
+
+    <p class="w3-text-dark-gray">电话聊天，快乐交友，愿每一个用户都能通过来聊让自己的生活更加多姿多彩！</p>
+
+    <p class="w3-text-dark-gray">来聊是集电话、语音、文字、聊天、交友约会、相亲、于一体的APP</p>
+    <p class="w3-text-dark-gray">在这里你可以</p>
+
+    <p class="w3-text-dark-gray">随机配对：免费随机异性配对语音聊天对象不看脸，直接语音通话，聊得来点继续才加好友</p>
+    <p class="w3-text-dark-gray">一对一轻松速配语音交友，聊天透过电话。语音、文字相互认识,情感交流。进而约会相亲相知相惜</p>
+
+    <p class="w3-text-dark-gray">各类主题主播聊天室让大家在此畅所欲言互相交流，分享彼此的喜怒哀乐八卦话题</p>
+    <p class="w3-text-dark-gray">保障隐私︰隐藏手机号码！防止骚扰</p>
+    <br>
+    <a class="w3-button w3-xlarge w3-pink" href="#download">免费下载APP</a>
+  </section>
+
+  <!-- download -->
+  <section id="download" class="w3-container w3-center w3-padding-48 w3-pink">
+    <h2 class="w3-text-shadow w3-animate-right">来聊交友APP下载</h2>
+    <hr class="w3-padding">
+
+    <div class="w3-row w3-center w3-padding-32">
+      <div class="w3-col m6 l6 w3-mobile">
+        <a href="https://itunes.apple.com/us/app/%E6%9D%A5%E8%81%8A%E4%BA%A4%E5%8F%8B/id1152843972"><img class="w3-image" src="img/logo_apple.png"></a>
+        <h3 class="w3-text-indigo">Apple Store</h3>
+      </div>
+
+      <div class="w3-col m6 l6 w3-mobile">
+        <a href="https://play.google.com/store/apps/details?id=com.llt.linelinetalk"><img class="w3-image" src="img/logo_google.png"></a>
+        <h3 class="w3-text-indigo">Google Play</h3>
+      </div>
+    </div>
+
+    <div class="w3-row w3-center w3-padding-32">
+      <div class="w3-col m6 l6 w3-mobile">
+        <a href="https://sj.qq.com/myapp/detail.htm?apkName=com.llt.linelinetalk"><img class="w3-image" src="img/logo_yyb.png"></a>
+        <h3 class="w3-text-indigo">应用宝</h3>
+      </div>
+
+      <div class="w3-col m6 l6 w3-mobile">
+        <a href="https://shouji.baidu.com/software/11532212.html"><img class="w3-image" src="img/logo_baidu.png"></a>
+        <h3 class="w3-text-indigo">百度</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- screen -->
+  <section id="screen" class="w3-container w3-padding-32 w3-sand">
+    <div class="w3-row w3-center w3-padding">
+      <div class="w3-col m4 l4 w3-mobile w3-padding"><img class="w3-image" src="img/screen2.jpg"></div>
+      <div class="w3-col m4 l4 w3-mobile w3-padding"><img class="w3-image" src="img/screen3.jpg"></div>
+      <div class="w3-col m4 l4 w3-mobile w3-padding"><img class="w3-image" src="img/screen4.jpg"></div>
+    </div>
+
+    <div class="w3-row w3-center w3-padding">
+      <div class="w3-col m6 l6 w3-mobile w3-padding"><img class="w3-image" src="img/screen5.jpg"></div>
+      <div class="w3-col m6 l6 w3-mobile w3-padding"><img class="w3-image" src="img/screen1.jpg"></div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="w3-container w3-whtie w3-padding-32">
+    <div class="w3-small w3-center">Copyright &copy; 2019 - lineliao All Rights Reserved</div>
+    <div class="w3-small w3-center">备案号：粤ICP备17003083号-1</div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/tw_cn.js"></script>
+
+  <!-- javascript code -->
+  <script>
+
+  // Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
+  function topnavFunction() {
+    var topnav = document.getElementById('topnav');
+    if (topnav.className === 'w3-bar bar-custom') {
+      topnav.className += ' responsive';
+    } else {
+      topnav.className = 'w3-bar bar-custom';
+    }
+  }
+
+  // change tw <--> cn
+  function translateZH() {
+    translatePage();
+    var lang = $(this).data('lang');
+    if (lang == 1) {
+        $(this).data('lang', 2);
+        $(this).text('繁');
+    } else {
+      $(this).data('lang', 1);
+      $(this).text('简');
+    }
+  }
+  </script>
+
+</body>
+</html>

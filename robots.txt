@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: images/
+Disallow: file/
+Disallow: img/
+Disallow: js/
+Disallow: css/
+
+Allow: /index.html
+Allow: /d.html
+Allow: /sa.html

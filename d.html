@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+
+	<meta name="goole" value="notranslate">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Cache-Control" content="no-transform"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>来聊交友</title>
+
+</head>
+<body>
+
+	<script>
+	if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+		window.location.href = 'https://itunes.apple.com/us/app/%E6%9D%A5%E8%81%8A%E4%BA%A4%E5%8F%8B/id1152843972';
+	}
+	else if (/(Android)/i.test(navigator.userAgent)) {
+		currentLang = navigator.language;
+		if (!currentLang) {
+			currentLang = navigator.browserLanguage;
+		}
+
+		if (currentLang == 'zh-TW') {
+			window.location.href = 'https://play.google.com/store/apps/details?id=com.llt.linelinetalk';
+		}
+		else {
+			window.location.href = 'http://sj.qq.com/myapp/detail.htm?apkName=com.llt.linelinetalk';
+		}
+	}
+	else {
+		window.location.href = 'http://shouji.baidu.com/software/11532212.html';
+	};
+	</script>
+</body>
+</html>
